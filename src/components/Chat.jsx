@@ -357,7 +357,7 @@ const styles = {
   },
   textInput: {
     flex: 1,
-    padding: '12px 15px',
+    padding: '10px 13px',
     fontSize: '22px',
     border: '1px solid #ddd',
     borderRadius: '20px',
