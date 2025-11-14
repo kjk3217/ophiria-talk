@@ -154,11 +154,11 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100%',
-    fontSize: '27px',
+    fontSize: '16px',
     color: '#666'
   },
   title: {
-    fontSize: '32px',
+    fontSize: '24px',
     marginBottom: '20px',
     color: '#333'
   },
@@ -166,7 +166,7 @@ const styles = {
     textAlign: 'center',
     color: '#999',
     padding: '40px',
-    fontSize: '27px'
+    fontSize: '16px'
   },
   userList: {
     display: 'flex',
@@ -183,7 +183,7 @@ const styles = {
     marginBottom: '15px'
   },
   userName: {
-    fontSize: '27px',
+    fontSize: '18px',
     fontWeight: 'bold',
     marginBottom: '5px',
     display: 'flex',
@@ -191,19 +191,19 @@ const styles = {
     gap: '10px'
   },
   adminBadge: {
-    fontSize: '22px',
+    fontSize: '12px',
     backgroundColor: '#e74c3c',
     color: 'white',
-    padding: '5px 12px',
+    padding: '3px 8px',
     borderRadius: '12px'
   },
   userEmail: {
-    fontSize: '27px',
+    fontSize: '14px',
     color: '#666',
     marginBottom: '5px'
   },
   userStatus: {
-    fontSize: '27px',
+    fontSize: '14px',
     color: '#666'
   },
   approved: {
@@ -220,32 +220,32 @@ const styles = {
     flexWrap: 'wrap'
   },
   approveButton: {
-    padding: '12px 20px',
+    padding: '8px 15px',
     backgroundColor: '#27ae60',
     color: 'white',
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontSize: '27px',
+    fontSize: '14px',
     fontWeight: 'bold'
   },
   adminButton: {
-    padding: '12px 20px',
+    padding: '8px 15px',
     backgroundColor: '#3498db',
     color: 'white',
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontSize: '27px'
+    fontSize: '14px'
   },
   deleteButton: {
-    padding: '12px 20px',
+    padding: '8px 15px',
     backgroundColor: '#e74c3c',
     color: 'white',
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontSize: '27px'
+    fontSize: '14px'
   }
 };
 

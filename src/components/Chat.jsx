@@ -184,7 +184,7 @@ function Chat({ user }) {
             {messages.length === 0 ? (
               <div style={styles.emptyState}>
                 <p>아직 메시지가 없습니다.</p>
-                <p style={{ fontSize: '27px', color: '#999' }}>첫 메시지를 보내보세요! 📸</p>
+                <p style={{ fontSize: '14px', color: '#999' }}>첫 메시지를 보내보세요! 📸</p>
               </div>
             ) : (
               messages.map((msg) => (
@@ -276,7 +276,7 @@ const styles = {
     boxShadow: '0 2px 5px rgba(0,0,0,0.1)'
   },
   headerTitle: {
-    fontSize: '32px',
+    fontSize: '20px',
     fontWeight: 'bold'
   },
   headerButtons: {
@@ -284,23 +284,23 @@ const styles = {
     gap: '10px'
   },
   adminButton: {
-    padding: '12px 20px',
+    padding: '8px 15px',
     backgroundColor: '#fff',
     color: '#4A90E2',
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontSize: '27px',
+    fontSize: '14px',
     fontWeight: 'bold'
   },
   logoutButton: {
-    padding: '12px 20px',
+    padding: '8px 15px',
     backgroundColor: 'rgba(255,255,255,0.2)',
     color: 'white',
     border: '1px solid white',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontSize: '27px'
+    fontSize: '14px'
   },
   messagesContainer: {
     flex: 1,
@@ -315,7 +315,7 @@ const styles = {
     justifyContent: 'center',
     height: '100%',
     color: '#666',
-    fontSize: '27px'
+    fontSize: '16px'
   },
   imagePreview: {
     position: 'relative',
@@ -336,10 +336,10 @@ const styles = {
     color: 'white',
     border: 'none',
     borderRadius: '50%',
-    width: '40px',
-    height: '40px',
+    width: '30px',
+    height: '30px',
     cursor: 'pointer',
-    fontSize: '27px'
+    fontSize: '18px'
   },
   inputContainer: {
     display: 'flex',
@@ -349,7 +349,7 @@ const styles = {
     backgroundColor: 'white'
   },
   imageButton: {
-    fontSize: '35px',
+    fontSize: '24px',
     backgroundColor: 'transparent',
     border: 'none',
     cursor: 'pointer',
@@ -357,20 +357,20 @@ const styles = {
   },
   textInput: {
     flex: 1,
-    padding: '10px 14px',
-    fontSize: '22px',
-    border: '2px solid #ddd',
+    padding: '12px 15px',
+    fontSize: '16px',
+    border: '1px solid #ddd',
     borderRadius: '20px',
     outline: 'none'
   },
   sendButton: {
-    padding: '12px 25px',
+    padding: '10px 20px',
     backgroundColor: '#4A90E2',
     color: 'white',
     border: 'none',
     borderRadius: '20px',
     cursor: 'pointer',
-    fontSize: '27px',
+    fontSize: '16px',
     fontWeight: 'bold'
   }
 };
