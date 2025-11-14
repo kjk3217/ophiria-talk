@@ -140,10 +140,10 @@ const styles = {
     padding: '40px 30px',
     boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
     width: '100%',
-    maxWidth: '400px'
+    maxWidth: '500px'
   },
   title: {
-    fontSize: '32px',
+    fontSize: '40px',
     textAlign: 'center',
     marginBottom: '10px',
     color: '#333'
@@ -152,23 +152,23 @@ const styles = {
     textAlign: 'center',
     color: '#666',
     marginBottom: '30px',
-    fontSize: '14px'
+    fontSize: '27px'
   },
   form: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '15px'
+    gap: '20px'
   },
   input: {
-    padding: '15px',
-    fontSize: '16px',
-    border: '1px solid #ddd',
+    padding: '18px',
+    fontSize: '27px',
+    border: '2px solid #ddd',
     borderRadius: '8px',
     outline: 'none'
   },
   button: {
-    padding: '15px',
-    fontSize: '16px',
+    padding: '18px',
+    fontSize: '27px',
     backgroundColor: '#4A90E2',
     color: 'white',
     border: 'none',
@@ -179,13 +179,13 @@ const styles = {
   },
   error: {
     color: '#e74c3c',
-    fontSize: '14px',
+    fontSize: '27px',
     textAlign: 'center'
   },
   toggle: {
     textAlign: 'center',
     marginTop: '20px',
-    fontSize: '14px',
+    fontSize: '27px',
     color: '#666'
   },
   toggleLink: {
