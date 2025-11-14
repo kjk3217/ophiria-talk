@@ -158,7 +158,7 @@ const styles = {
     color: '#666'
   },
   title: {
-    fontSize: '24px',
+    fontSize: '25px',
     marginBottom: '20px',
     color: '#333'
   },
@@ -226,7 +226,7 @@ const styles = {
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontSize: '14px',
+    fontSize: '17px',
     fontWeight: 'bold'
   },
   adminButton: {
@@ -236,7 +236,7 @@ const styles = {
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontSize: '14px'
+    fontSize: '17px'
   },
   deleteButton: {
     padding: '8px 15px',
