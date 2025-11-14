@@ -64,7 +64,7 @@ const styles = {
     maxWidth: '70%'
   },
   senderName: {
-    fontSize: '27px',
+    fontSize: '25px',
     color: '#666',
     marginBottom: '5px',
     marginLeft: '5px',
@@ -86,7 +86,7 @@ const styles = {
     lineHeight: '1.4'
   },
   timestamp: {
-    fontSize: '27px',
+    fontSize: '23px',
     color: '#999',
     marginTop: '3px',
     marginLeft: '5px',
