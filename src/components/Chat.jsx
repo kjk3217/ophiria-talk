@@ -361,7 +361,7 @@ const styles = {
     flex: 1,
     minWidth: '0',
     padding: '15px 18px',
-    fontSize: '20px',
+    fontSize: '23px',
     border: '1px solid #ddd',
     borderRadius: '20px',
     outline: 'none'
