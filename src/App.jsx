@@ -24,7 +24,7 @@ function App() {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        fontSize: '27px',
+        fontSize: '20px',
         color: '#666'
       }}>
         로딩 중...
