@@ -64,14 +64,14 @@ const styles = {
     maxWidth: '70%'
   },
   senderName: {
-    fontSize: '12px',
+    fontSize: '27px',
     color: '#666',
     marginBottom: '5px',
     marginLeft: '5px',
     fontWeight: 'bold'
   },
   messageBubble: {
-    padding: '10px 15px',
+    padding: '15px 18px',
     boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
     wordWrap: 'break-word'
   },
@@ -82,11 +82,11 @@ const styles = {
     display: 'block'
   },
   messageText: {
-    fontSize: '15px',
+    fontSize: '27px',
     lineHeight: '1.4'
   },
   timestamp: {
-    fontSize: '11px',
+    fontSize: '27px',
     color: '#999',
     marginTop: '3px',
     marginLeft: '5px',
