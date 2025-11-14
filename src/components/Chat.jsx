@@ -346,7 +346,9 @@ const styles = {
     gap: '10px',
     padding: '15px 20px',
     borderTop: '1px solid #ddd',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    flexWrap: 'nowrap',
+    alignItems: 'center'
   },
   imageButton: {
     fontSize: '24px',
@@ -357,8 +359,8 @@ const styles = {
   },
   textInput: {
     flex: 1,
-    maxWidth: '300px',
-    padding: '12px 15px',
+    minWidth: '0',
+    padding: '15px 18px',
     fontSize: '20px',
     border: '1px solid #ddd',
     borderRadius: '20px',
